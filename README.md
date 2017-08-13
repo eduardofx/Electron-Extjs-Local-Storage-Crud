@@ -14,4 +14,12 @@ cd Electron-Extjs-Local-Storage-Crud
 npm install
 # Run the app
 npm start
+
+
+# windows installer
+npm install --save-dev electron-winstaller
+npm install -g asar
+node installers/windows/createinstaller.js
+npm run package-win
+npm run create-installer-win
 ```
